@@ -31,5 +31,7 @@ int print_c(va_list *);
 int print_s(va_list *);
 
 int (*get_f(char))(va_list *);
+int print_i(va_list i);
+int print_d(va_list d);
 
 #endif
