@@ -4,7 +4,7 @@
 
 int _printf(const char *format, ...)
 {
-        int y, j, d;
+        int y, j, x;
         int total = 0;
         va_list args;
         char c, f;
@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
                                 write(1, "%", 1);
                                 total++;
                         }
-                        else if (f == 'd' || f == 'y')
+                        else if (f == 'x' || f == 'y')
                         {
                                 d = va_arg(args, int);
                                 total += print_int(d);
