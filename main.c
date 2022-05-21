@@ -27,7 +27,6 @@ int main(void)
 		puts("X: Test failed");
 	puts("\tTest for printing %");
 	printf("Here's a percentage symbol: %%\n");
-	
 	_printf("Here's a percentage symbol: %%\n");
 
 	puts("\n");
