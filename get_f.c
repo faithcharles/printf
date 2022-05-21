@@ -2,6 +2,8 @@
 
 /**
  * get_f - get function
+ * @c: character to get
+ * Return: 0
  */
 
 int (*get_f(char c))(va_list *)
