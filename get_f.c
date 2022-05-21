@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**get_f-get function**/
+/**get_f-get function
+ */
 
 int (*get_f(char c))(va_list *)
 
