@@ -32,9 +32,9 @@ int print_s(va_list *p)
 
 	char *s = va_arg(*p, char *);
 
-	while(s[len] != '\0')
+	while (s[len] != '\0')
 		len++;
-	write(1, s,len);
+	write(1, s, len);
 	return (len);
 
 }
